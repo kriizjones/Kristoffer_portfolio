@@ -4,15 +4,17 @@ source 'https://rubygems.org'
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.0.0.0.rc'
-gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
+# gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
-#Template engine
+# Template engine
 gem 'haml'
 
 group :development, :test do
+  gem 'cucumber'
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'pry'
   gem 'launchy'
   gem 'rspec'
+  gem 'html2haml'
 end

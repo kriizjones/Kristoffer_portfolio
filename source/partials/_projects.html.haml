@@ -1,0 +1,6 @@
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %P= project[:description]
+    %P= project[:language]
+    %P= project[:github]

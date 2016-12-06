@@ -1,5 +1,30 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+# - name: My First Website
+#   description: Simple HTML5 site I've build during the PrepCourse
+#
+# - name: FizzBuzz
+#   description: My first Test driven ruby project
+
+- name: Restaurant Slow Food
+  description: Group project
+  language: Ruby, HTML, CSS
+  github:
 
 - name: FizzBuzz
-  description: My first Test driven ruby project
+  description: A weekend project
+  language: JavaScript, HTML, CSS
+  github:
+
+- name: BMI Calculator
+  description: Test Jasmine Specrunner
+  language: JavaScript, HTML, CSS
+  github:
+
+- name: Library System
+  description: Weekend project
+  language: Ruby
+  github:
+
+- name: ATM
+  description: My first weekend test
+  language: Ruby
+  github:
