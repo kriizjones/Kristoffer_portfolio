@@ -1,29 +1,29 @@
 - name: Restaurant Slow Food
   description: Group project
   language: Ruby, HTML, CSS
-  github:
+  github: https://github.com/kriizjones/slow_food_sinatra_nov.git
 
 - name: FizzBuzz
   description: A weekend project
   language: JavaScript, HTML, CSS
-  github:
+  github: https://github.com/kriizjones/fizz_buzz_js_challange.git
 
 - name: BMI Calculator
   description: Test Jasmine Specrunner
   language: JavaScript, HTML, CSS
-  github:
+  github: https://github.com/kriizjones/bmi_challenge.git
 
-- name: Library System
+- name: Library
   description: Weekend project
   language: Ruby
-  github:
+  github: https://github.com/kriizjones/library-challenge.git
 
 - name: ATM
-  description: My first weekend test
+  description: My first week test
   language: Ruby
-  github:
+  github: https://github.com/kriizjones/atm_2.git
 
 - name: My First Website
-  description:
-  language:
-  github:
+  description: This is it
+  language: Ruby
+  github: Unknown
