@@ -2,20 +2,42 @@
 @import "normalize";
 
 body {
-  background: #ECC561;
+  background-color: #000000;
+  background-image: url('images/gas-t2.jpg');
+  background-repeat: no-repeat;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-family: 'Permanent Marker', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
-.logo img {
-  height: 18.75em;
-  margin-top: 6em;
+img {
+  margin: 1em 0em 1.5em;
+  box-shadow: 5px 5px 10px #605c5c
 }
 
+p {font-size:large}
+
+
+.ff {
+  border-style:none;
+  background-color: #ffffff;
+  padding: 0.5em 1em;
+  margin:0.5em;
+}
+
+
 h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(255,0,0,0.3);
+  font-family: 'Permanent Marker', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+h4 {
+  color: rgba(255,0,0,0.3);
+  font-family: 'Permanent Marker', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0;
@@ -23,7 +45,7 @@ h1 {
 
 .doc {
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Permanent Marker', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300;
 
@@ -44,7 +66,8 @@ h1 {
 
 .welcome {
   -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
+  -webkit-animation-duration: 2.2s;
+
 }
 
 @-webkit-keyframes welcome {
