@@ -1,8 +1,10 @@
 .row
   .projects
     - data.projects.each do |project|
-      .small-4.medium-4.large-4.columns
+      .small-12.medium-4.large-4.columns
         %h4= project[:name]
         %P= project[:description]
         %P= project[:language]
-        %P= project[:github]
+        %a{href: "#{project[:github]}"}
+          %button.btn.btn-default.btn-sm.pushred{type: "button"}
+            =image_tag 'pushred.png', width: '30px'

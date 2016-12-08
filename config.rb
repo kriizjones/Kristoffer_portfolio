@@ -13,7 +13,16 @@ configure :build do
   activate :build_cleaner
 end
 
-# activate :deploy do |deploy|
-#   deploy.build_before = true
-#   deploy.deploy_method = :git
-# end
+activate :blog do |blog|
+  # set options on blog
+end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-XXXXXXX-X'
+end
+
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
